@@ -1,6 +1,5 @@
 @import './base.css';
 @import 'bootstrap';
-
 body{
 margin: 0;
 padding: 0;
@@ -9,7 +8,8 @@ box-sizing: border-box;
 }
 .main{
     background-color: rgb(184, 185, 187) !important;
-    height: 200vh;
+    /* height: 200vh; */
+    /* padding-bottom: 3rem; */
     /* padding: 1rem; */
 }
 #bottomBar {

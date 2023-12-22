@@ -40,7 +40,7 @@
                     <div>
     <RouterLink
       v-if="book.penalty_amount === 0"
-      style="width: 8.5rem; margin-bottom: 1px;"
+      style="width: 100%; margin-bottom: 1px;"
       :to="{ path: '/books/' + book.id + '/borrow' }"
       class="btn btn-success"
     >
